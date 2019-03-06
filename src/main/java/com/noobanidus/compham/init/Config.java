@@ -27,7 +27,7 @@ public class Config {
     public boolean ALL_ENABLED = true;
 
     public Config() {
-        STONE_ENTRIES = CONFIG.get("General", "StoneTypes", new String[]{"minecraft:stone:0", "minecraft:stone:1", "minecraft:stone:2", "minecraft:stone:3", "minecraft:stone:4", "minecraft:stone:5", "minecraft:stone:6", "ore:blockStone"}, "List of blocks considered stone for the stone hammer.").getStringList();
+        STONE_ENTRIES = CONFIG.get("General", "StoneTypes", new String[]{"minecraft:stone:0", "minecraft:stone:1", "minecraft:stone:2", "minecraft:stone:3", "minecraft:stone:4", "minecraft:stone:5", "minecraft:stone:6", "ore:blockStone", "ore:cobblestone"}, "List of blocks considered stone for the stone hammer.").getStringList();
 
         COMPRESSED_ENTRIES = CONFIG.get("General", "CompressedStoneTypes", new String[]{"extrautils2:compressedcobblestone"}, "List of blocks considered compressed stone for the compressed hammer").getStringList();
 

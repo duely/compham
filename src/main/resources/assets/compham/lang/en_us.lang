@@ -7,4 +7,4 @@ item.rod_double=Double Compress Rod
 item.rod_compressed=Compressed Rod
 itemGroup.compham=CompressedHammers
 
-compham.tooltip.disabled=No valid compressed stone in config!
+compham.tooltip.disabled=Enable recipe by configuring stone.
