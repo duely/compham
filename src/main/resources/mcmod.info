@@ -1,13 +1,13 @@
 [
   {
-    "modid": "circadian",
-    "name": "Circadian",
-    "description": "Bringing Night & Day to Minecraft.",
+    "modid": "compham",
+    "name": "Compressed Hammers",
+    "description": "Durable mining hammers made of compressed stone.",
     "version": "${version}",
-    "credits": "Noobanidus, code and assets derived from Thaumcraft (MIT License), Thermal Expansion, Thermal Foundation, CofH Core (CoFH License)",
-    "logoFile": "assets/circadian/textures/logo.png",
+    "credits": "Noobanidus, CofH Core (CoFH License)",
+    "logoFile": "assets/compham/textures/logo.png",
     "mcversion": "${mc_version}",
-    "url": "http://github.com/noobanidus/circadian",
+    "url": "http://github.com/duely/compham",
     "updateUrl": "",
     "authorList": [
       "Noobanidus"
@@ -15,7 +15,7 @@
     "parent": "",
     "screenshots": [],
     "dependencies": [
-      "forge,codechickenlib,cofhcore,thermalfoundation,thaumcraft"
+      "forge,,cofhcore"
     ]
   }
 ]
