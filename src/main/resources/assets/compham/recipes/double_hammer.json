@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "compham:double_hammer",
+    "count": 1
+  },
+  "pattern": [
+    "SSS",
+    "SRS",
+    " R "
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "hammerDoubleStone"
+    },
+    "R": {
+      "item": "compham:double_rod"
+    }
+  }
+}

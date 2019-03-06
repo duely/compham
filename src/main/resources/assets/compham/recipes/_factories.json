@@ -1,0 +1,5 @@
+{
+  "conditions": {
+    "stone_hammer_enabled": "com.noobanidus.compham.recipes.conditions.ConditionFactory$StoneHammer"
+  }
+}

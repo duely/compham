@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "compham:stone_hammer",
+    "count": 1
+  },
+  "pattern": [
+    "SSS",
+    "SRS",
+    " R "
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "hammerStone"
+    },
+    "R": {
+      "type": "forge:ore_dict",
+      "ore": "rodStone"
+    }
+  },
+  "conditions": [{
+    "type": "compham:stone_hammer_enabled"
+  }]
+}

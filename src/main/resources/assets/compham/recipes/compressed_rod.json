@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "compham:compressed_rod",
+    "count": 1
+  },
+  "pattern": [
+    "S",
+    "S"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "hammerCompressedStone"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "compham:iron_rod",
+    "count": 9
+  },
+  "pattern": [
+    "S",
+    "S",
+    "S"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "blockIron"
+    }
+  }
+}

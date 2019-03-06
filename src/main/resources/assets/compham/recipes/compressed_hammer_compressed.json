@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "compham:compressed_hammer",
+    "count": 1
+  },
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "item": "compham:stone_hammer"
+    }
+  },
+  "conditions": [{
+    "type": "compham:stone_hammer_enabled"
+  }]
+}
