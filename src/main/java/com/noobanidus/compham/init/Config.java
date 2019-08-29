@@ -29,9 +29,9 @@ public class Config {
     public Config() {
         STONE_ENTRIES = CONFIG.get("General", "StoneTypes", new String[]{"minecraft:stone:0", "minecraft:stone:1", "minecraft:stone:2", "minecraft:stone:3", "minecraft:stone:4", "minecraft:stone:5", "minecraft:stone:6", "ore:blockStone", "ore:cobblestone"}, "List of blocks considered stone for the stone hammer.").getStringList();
 
-        COMPRESSED_ENTRIES = CONFIG.get("General", "CompressedStoneTypes", new String[]{"extrautils2:compressedcobblestone"}, "List of blocks considered compressed stone for the compressed hammer").getStringList();
+        COMPRESSED_ENTRIES = CONFIG.get("General", "CompressedStoneTypes", new String[]{"extrautils2:compressedcobblestone","additionalcompression:cobblestone_compressed","additionalcompression:stone_compressed"}, "List of blocks considered compressed stone for the compressed hammer").getStringList();
 
-        DOUBLE_ENTRIES = CONFIG.get("General", "DoubleCompressedStoneTypes", new String[]{"extrautils2:compressedcobblestone:1"}, "List of blocks considered double-compressed stone for the double-compressed hammer").getStringList();
+        DOUBLE_ENTRIES = CONFIG.get("General", "DoubleCompressedStoneTypes", new String[]{"extrautils2:compressedcobblestone:1","additionalcompression:cobblestone_compressed:1","additionalcompression:stone_compressed:1"}, "List of blocks considered double-compressed stone for the double-compressed hammer").getStringList();
 
         STONE_ENABLED = CONFIG.get("General", "EnableStoneHammer", true, "Set to false to disable the simple stone hammer recipe.").getBoolean();
     }
